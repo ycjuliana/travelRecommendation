@@ -1,0 +1,420 @@
+body, html {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header{
+	background-color: black;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+}
+.header i{
+	font-size: 35px;
+	margin: 25px 0 25px 30px;
+	color: 	#006666;
+}
+
+.header a {
+    text-decoration: none;
+    margin: 30px 30px 25px 10px; 
+    color: white;
+    font-weight: bold;
+}
+.header a:hover {
+  text-decoration:underline;
+  color:#E0E0E0;
+}
+.header a:active {
+  color:#E0E0E0;
+}
+.header .icon {
+  display: none;
+}
+
+#app-name {   
+    font-style: italic;	
+	font-size: 20px;
+	margin: 30px 30px 25px 10px;
+}
+
+#barM{
+	color:	#006666;
+	font-size: 20px;
+}
+
+.search{	
+	width: max-content;
+	display: flex;
+	align-items: center;
+	border-radius: 28px;
+	background: white;
+	margin-top: 20px;
+	margin-right: 5px;
+	height: 36px;
+}
+
+.search-input{
+	font-size: 12px;
+	font-family: 'Lexend', sans-serif;
+	color: green;
+	margin-left: 10px;	
+	outline: none;
+	border: none;
+	background: transparent;
+	width: 250px;	
+	padding: 5px;
+}
+
+.search-input::placeholder,
+.search-icon{
+	color: #006666;
+}
+.btn{
+	color: white;
+	background: #006666;
+	border-radius: 5px;
+	border: none;
+	margin-right: 10px;
+	margin-left: 5px;
+	width: 75px;	
+	height: 28px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #00b386;
+}
+
+.main-page {
+    min-height: 100vh;
+    min-width: 90vw;
+    background: url('assets/images.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+	
+}
+.main-page {
+	border-image: fill 0
+    linear-gradient(#0002,#000); 
+}
+
+.page-intro {
+    width: 600px;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    display: block;
+    margin: 70px 150px;
+}
+.about-section {	
+    width: 1200px;
+	height:300px;
+    color: white;
+    font-weight: bolder;
+    padding: 0 0 0 50px;
+    display: grid;	
+	margin-top:50px;
+	margin-left:30px;
+}
+.mid-section{
+	color: white;
+	font-weight: bolder;
+	display: flex;
+	padding: 20px;
+	margin: 10px 10px 0 10px;
+}
+
+.mid-section-desc {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#midTitle {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.team-card{
+    background-color: rgba(41, 47, 46, 0.3);
+    margin: 20px; 
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.team-card i {
+    font-size: 20px;
+
+}
+
+.team-card p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.team-card h3{
+	position: flex;
+}
+
+.team-card button {
+    border-radius: 8px;
+    padding: 10px 60px;
+    color: white;
+    background-color: #063C79;
+    border: 0.5px solid white;
+    margin-left: 30px;
+}
+#emptyPadding{
+	margin-left: 472px;
+}
+
+#intro-title {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+#intro-desc {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.contact-us {
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    display: block;
+    margin: 200px 100px;
+}
+
+.contact-us p {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.contact-form {
+    width: 900px;
+    height: 500px;
+    background-color: rgba(41, 47, 46, 0.3);
+    margin: 200px 50px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.contact-form-input {
+    width: 900px;
+    height: 30px;
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid rgb(233, 229, 229);
+    border-radius: 5px;
+}
+
+#contact-btn {
+    width: 900px;
+    background-color: #007054;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 30px;
+    border: none;
+    font-size: x-large;
+    margin: 10px 10px 0px 0px;
+}
+
+#contact-btn:hover {
+    color: #00b386;
+    background-color: white;
+}
+
+#contact-msg {
+    height: 200px;
+}
+
+
+
+.social-media-main {
+    display: block;
+    margin-left: 15px;
+}
+
+.vertical-line {
+    border-left: 2px solid white;
+    height: 500px;
+    margin: 25px;
+}
+
+.social-media-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-top: 100px;
+    color: white;
+}
+
+.social-media-btn {
+    margin: 10px
+}
+#book-now-btn{
+	color: white;
+	background: #006666;
+	width: 200px;	
+	height: 60px;
+	font-size: 20px;
+	border-radius: 5px;
+}
+#book-now-btn:hover 
+{
+    color: white;
+    background-color: #00b386;
+}
+#book-now-btn:active
+{
+    transform: scale(1);
+    background-position: 500px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#about-title{
+	font-weight: bolder;
+    font-size: 70px;
+	margin-top:10px;
+
+}
+#about-desc{
+	font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 50px;	
+	background: rgba(0, 0, 0, 0.2);
+}
+
+/*@media screen and (max-width: 600px) {
+	.header{
+		background: red;
+	}
+	
+  .header .i .h1 {
+    float: none;
+	width: 100%;
+  }
+  .header .search {
+    float: none;
+	width: 100%;
+	display: none;
+  }
+  .header a, .header input[type=text], .header .search button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+  }
+  .header input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}*/
+
+@media screen and (max-width: 600px) {
+	.header #app-name{
+		display: inline;
+	}
+	.header i{
+		display: inline;
+	}
+  .search{
+	  display:none;
+  }
+  .header a:not(:first-child) {display: none;}
+  .header a.icon {
+    float: left;
+    display: block;
+	color:red;
+  }
+  .main-page{
+	  width: 100%;
+  height: auto;
+  }
+  .search{
+	  display:none;
+  }
+  #barM{
+	  display:inline-block;
+	  align-items:right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+	.header #app-name{
+		display: inline-block;
+	}
+	.header i{
+		display: none;
+	}
+	.main-page{
+	  background-size: contain;
+  }
+
+  .search{
+	  display:none;
+  }
+  .header.responsive {position: relative;}
+  .header.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .header.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	
+  }
+}
+
+.search-result {
+    width: 650px;
+    margin: 100px;
+}
+
+.search-result img {
+    width: 650px;
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.search-result h2 {
+    margin: 20px;
+}
+
+.search-result p {
+    margin: 20px;
+    color: rgb(158, 147, 147) ;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.search-result button {
+    margin: 10px 20px;
+    background-color: #007054;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    font-size: medium;
+}
+
+.search-result-element {
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Travel Recommendation By ycjuliana</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+<script src="travel_recommendation.js"></script>
+
+</head>
+<body>
+<div class="header" id="divv">
+	<div class="header" id="logoID">
+            <i class="fa fa-plane fa-sml" id="nav-icon"></i>
+            <h1 id="app-name">TravelBloom</h1>
+    </div>
+	<div class="header" id="myTopnav">
+
+		<a href="index.html">Home</a>
+		<a href="about.html">About Us</a>
+		<a href="contact.html">Contact Us</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">    <i class="fa fa-bars" id="barM"></i>  </a>
+	</div>
+	<div class="search">
+		<input class="search-input" type="text" id="nav-input-id" placeholder="Enter a destination or keyword ">
+		<span class="search-icon material-symbols-outlined">search</span>
+		<button class="btn" type="nav-search-btn" id="nav-search-btn">Search</button>
+		<button class="btn" type="nav-clear-btn" id="nav-clear-btn">Clear</button>
+	</div>
+
+</div>
+<div class="main-page">
+        <div class="social-media-main">
+            <div class="vertical-line">
+            </div>
+            <div class="social-media-section">
+                <i class="fa fa-twitter social-media-btn"></i>
+                <i class="fa fa-facebook social-media-btn"></i>
+                <i class="fa fa-instagram social-media-btn"></i>
+                <i class="fa fa-youtube social-media-btn"></i>
+            </div>
+        </div>
+        <div class="page-intro">
+            <h2 id="intro-title">EXPLORE DREAM DESTINATION</h2>
+            <p id="intro-desc"> It encourages exploration of unfamiliar<br> territories, embracing diverse cultures and<br> landscapes, while pursuing the desired<br> destination that captivates the heart and<br> ignites a sense of wonder.</p>
+            <button id="book-now-btn" class="book-now-btn">BOOK NOW</button>
+        </div>
+        <div class="search-result" id="search-result-id">
+        </div>
+    </div>
+	
+
+
+</body>
+</html>
